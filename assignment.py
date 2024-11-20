@@ -107,7 +107,7 @@ person = {
 # else:
 #     print('All numbers are equal')
 
-# # ass 8
+# # ass 8 t
 def add(x,y):
     return x + y
 def sub(x,y):
