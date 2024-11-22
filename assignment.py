@@ -108,14 +108,14 @@ person = {
 #     print('All numbers are equal')
 
 # # ass 8 t
-def add(x,y):
-    return x + y
-def sub(x,y):
-    return x - y
-def mul(x,y):
-    return x * y
-def div(x,y):
-    return x / y
+# def add(x,y):
+#     return x + y
+# def sub(x,y):
+#     return x - y
+# def mul(x,y):
+#     return x * y
+# def div(x,y):
+#     return x / y
 # print('''
 #     Please select a number to continue
 #       1. Addition           2. Subtraction
@@ -172,3 +172,53 @@ def div(x,y):
 #     print('fail')
 # else:
 #     print('Invalid score')
+
+
+# name = 'Nathaniel'
+# for i in range(6):
+#     print(name)
+
+
+# fact = 1
+# number = int(input('Enter number: '))
+# for i in range(1,number+1):
+#     fact *=i
+#     print(f'The factorial of {number} = {fact}')
+
+
+# number = int(input('Enter number: '))
+# for i in range(1,13):
+#     print(f'{number} * {i} = {number*i}')
+
+
+# number = int(input('Enter number: '))
+# for i in range(1,number+1):
+#     print('\n')
+#     print(f'{i}')
+#     for j in range(1,13):
+#         print(f'{i} * {j} = {i*j}')
+
+
+# pwd = 'admin'
+# uname = 'Nathaniel'
+# for i in range(3):
+#     e_pwd = input('Enter your password: ')
+#     chance = 2
+#     if pwd == e_pwd:
+#         print(f'welcome {uname}')
+#         break
+#     else:
+#         print(f'incorrect password, you have {chance - i} left')
+#         continue
+
+# import time
+# for i in range(6):
+#     name = 'Nathaniel'
+#     time.sleep(3)
+#     print(name)
+
+
+# import calendar
+
+# yr = int(input('Enter the year: '))
+# print(calendar.calendar(yr))
